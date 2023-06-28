@@ -1,0 +1,215 @@
+body
+{
+	background-color: #93dde7;
+	font-family: 'Dosis', sans-serif;
+	font-size: 15px;
+}
+
+h1.logo
+{
+	font-size: 46px;
+	font-weight: 900;
+	color: #000000;
+	text-align: center;
+	letter-spacing: 5px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+img {
+	width: 200px;
+	height: 400px;
+	object-fit: cover;
+}
+.nav-item
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.nav
+{
+	background-color: #1c74b2;
+	text-align: center;
+}
+
+#content
+{
+	background-color: white;
+	width: 600px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(7, 34, 85, 0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(7, 34, 85, 0.9);
+	box-shadow: 3px 3px 30px 5px rgba(7, 34, 85, 0.9);
+}
+
+#contentBalance
+{
+	background-color: white;
+	width: 800px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(7, 34, 85, 0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(7, 34, 85, 0.9);
+	box-shadow: 3px 3px 30px 5px rgba(7, 34, 85, 0.9);
+}
+
+#header
+{
+	width: 500px;
+	height: 50px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+}
+
+#headerBalance
+{
+	width: 700px;
+	height: 50px;
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	border-bottom: 2px solid black;
+	margin-bottom: 20px;
+}
+
+#inside
+{
+	text-align: right;
+	margin-right: 80px;
+}
+
+.menu
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px dashed #0a2b42;
+}
+
+.menu > li:first-child
+{
+	border-left: 1px dashed #0a2b42;
+}
+
+.menu a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	color: #0a2b42;
+	
+}
+
+#container
+{
+	background-color: white;
+	width: 300px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 200px;
+	-webkit-box-shadow: 3px 3px 30px 5px rgba(7, 34, 85, 0.9);
+	-moz-box-shadow: 3px 3px 30px 5px rgba(7, 34, 85, 0.9);
+	box-shadow: 3px 3px 30px 5px rgba(7, 34, 85, 0.9);
+}
+
+input[type=text],
+input[type=e-mail],
+input[type=date],
+input[type=number],
+input[type=password]
+{	
+	background-color: #efefef;
+	color: #182170;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+}
+
+input[type=submit]
+{
+	background-color: #182170;
+	font-size: 20px;
+	color: white;
+	padding: 15px;
+	margin-top: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+	box-sizing: border-box;
+}
+
+h1
+{
+	color: #182170;
+	margin-bottom: 20px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+select
+{
+	width: 300px;
+	height: 36px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+	margin-right:0px;
+}
+
+.row
+{
+	margin: 20px 10px;
+}
+
+p
+{
+	color: #000000;
+	font-size: 16px;
+	margin-bottom: 20px;
+	text-align: right;
+	
+}
